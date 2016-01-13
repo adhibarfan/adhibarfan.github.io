@@ -1,0 +1,14 @@
+---
+layout: post
+title: Latihan Github
+modified:
+categories: 
+excerpt:
+tags: []
+image:
+  feature:
+date: 2015-12-08T13:10:53+07:00
+---
+
+Selamat belajar Markdown, happy writing!!
+
