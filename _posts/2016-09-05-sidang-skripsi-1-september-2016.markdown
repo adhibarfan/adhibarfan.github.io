@@ -10,7 +10,10 @@ image:
 date: 2016-09-05T19:06:57+07:00
 ---
 
-# Skripsi 
+# Skripsi
+
+lkshflelfhwel
+
 ## Heading 2
 
 >>Pengertian Skripsi adalah
