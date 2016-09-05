@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            ADHIB ARFAN
+title:            Adhib Arfan
 locale:           en_US
-url:
+url: 
 
 
 # Jekyll configuration
@@ -27,16 +27,16 @@ kramdown:
 # Site owner
 owner:
   name: Adhib Arfan
-  avatar: bio-photo.jpg
+  avatar: me.jpg
   bio: "Mahasiswa Tingkat Akhir"
   email: adhib.arfan@gmail.com
   disqus-shortname:
   twitter: adhibarfan_
-  facebook: adhibarfan94
+  facebook: adhibarfan16
   google:
     plus: #username
-    analytics:
-    verify:
+    analytics: UA-83696627-1
+    verify: Kd0LmZjYEG4tX4za0IzPDwZURJpCCdfbesulmjayJdU
     ad-client:
     ad-slot:
   bing-verify:
