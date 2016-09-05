@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Adhib Arfan
-locale:           en_US
-url: https://adhibarfan.github.io/
+title:            Catatan Adhib Arfan
+locale:           in_ID
+url: https://adhibarfan.github.io
 
 
 # Jekyll configuration
@@ -21,7 +21,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Site owner
@@ -42,7 +42,7 @@ owner:
   bing-verify:
   github: adhibarfan
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: adhibarfan
   xing: #username
   instagram: adhibarfan_
   lastfm: #username
