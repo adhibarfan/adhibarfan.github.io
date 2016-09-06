@@ -5,6 +5,8 @@ modified:
 categories: 
 excerpt: Pengalaman ketika mengikuti sidang skripsi 
 tags: [sidang, skripsi]
+comments: true
+share: true
 image:
   feature:
 date: 2016-09-05T19:06:57+07:00
