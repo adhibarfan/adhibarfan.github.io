@@ -3,8 +3,8 @@ layout: post
 title: Hello World CodeIgniter
 modified:
 categories: 
-excerpt: Mengenal Controller dan View dalam Membuat Hello World
-tags: []
+excerpt: Belajar Controller dan View
+tags: [belajar, codeigniter, hello world, controllers, views]
 comments: true
 share: true
 image:
