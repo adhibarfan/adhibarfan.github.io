@@ -85,7 +85,17 @@ Setelah membuat controller HelloWorldController.php langkah selanjutnya adalah m
 </html>
 {% endhighlight %}
 
-Setelah selesai membuat tampilan, langkah selanjutnya adalah menjalankan function yang telah dibuat dengan cara mengakses 127.0.0.1/HellowWorldCodeIgniter/index.php/NamaController/NamaFunction
+Setelah selesai membuat tampilan, langkah selanjutnya adalah menjalankan controller dan function yang telah dibuat. Berikut ini adalah bentuk dasar dalam pemanggilan pada CodeIgniter.
+{% highlight text %}
+127.0.0.1/HelloWorldCodeIgniter/index.php/NamaController/NamaFunction
+{% endhighlight %}
+
+Disini kita akan mengakses Controller HelloWorldController yaitu dengan cara mengakses 127.0.0.1/HelloWorldCodeIgniter/index.php/HelloWorldController. Secara default function yang di panggil adalah function index() ![tampilanIndex.png](../images/tampilanIndex.png)
+
+Bagaimana jika kita ingin memanggil functionBelajar() ? tinggal menambahkannya setelah controller, yaitu 127.0.0.1/HellowWorldCodeIgniter/index.php/HelloWorldController/functionBelajar ![tampilanFunctionBelajar.png](../images/tampilanFunctionBelajar.png)
+
+Semoga bermanfaat :)
+
 
 
 
