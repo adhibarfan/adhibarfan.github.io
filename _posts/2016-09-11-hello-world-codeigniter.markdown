@@ -26,7 +26,7 @@ Untuk lebih jelasnya alangkah lebih baik kalau langsung di praktikan.
 #### Install CodeIgniter
 
 1. Download CodeIgniter, silahkan download file CodeIgniter pada website resmi nya [https://www.codeigniter.com](https://www.codeigniter.com/download)
-2. Ekstrak file yang telah di download kemudian rename menjadi HelloWorldCodeIgniter, letakan file yang telah di rename di htdoc(Windows) bagi yang menggunakan ubuntu diletakan  /var/www/html/disini sedangkan bagi yang belum mempersiapkan coding pada php silahkan berkunjung ke blog [persiapan coding php](rizkimufrizal.github.io)
+2. Ekstrak file yang telah di download kemudian rename menjadi HelloWorldCodeIgniter, letakan file yang telah di rename di htdoc(Windows) bagi yang menggunakan ubuntu diletakan  /var/www/html/disini sedangkan bagi yang belum mempersiapkan coding pada php silahkan berkunjung ke blog [persiapan coding php](https://rizkimufrizal.github.io/instalasi-perlengkapan-coding-php/)
 3. run file dengan mengakses 127.0.0.1/HelloWorldCodeIgniter/ maka akan tampil tampilan seperti pada gambar ![welcometoci.png](../images/welcometoci.png)
 
 #### Membuat Hello World
