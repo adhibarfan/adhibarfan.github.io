@@ -109,8 +109,6 @@ line(278,85,390,85).
 
 {% endhighlight %}
 
-`RizkiMufrizal.github.io` 
-
 penjelasan code program sebagai berikut:
 
 1. `?-`
