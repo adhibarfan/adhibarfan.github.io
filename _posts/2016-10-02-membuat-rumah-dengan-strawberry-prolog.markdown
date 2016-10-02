@@ -109,37 +109,39 @@ line(278,85,390,85).
 
 {% endhighlight %}
 
+`RizkiMufrizal.github.io` 
+
 penjelasan code program sebagai berikut:
 
-1. ?-
+1. `?-`
 Sintak yang digunakan untuk memulai program Strawberry Prolog
 
-2. window(_,_,coba(),"Rumah",20,50,900,600)
+2. `window(_,_,coba(),"Rumah",20,50,900,600),`
 Perintah window di buat untuk menampilkan jendela yang akan dijadikan sebagai program. Kalimat "Rumah" merupakan judul dari jendela outputnya. 20,50,900,600 adalah koordinat untuk menentukkan panjang dan lebar kotak window sesuai dengan kebutuhan.
 
-3. coba(paint):-
+3. `coba(paint):-`
 Berfungsi untuk menandakan jendela output digunakan untuk menampilkan gambar.
 
-4. pen(5,rgb(55,199,32)),
+4. `pen(5,rgb(55,199,32)),`
 untuk memberikan garis tepi dengan ketebalan 5, dengan kombinasi warna rgb. rgb merupakan singkatan dari red green blue yang di dalamnya terdapat angka yang disesuaikan / dikombinasikan sesuai warna yang kita inginkan.
 
-5. brush(rgb(55,199,32)),
+5. `brush(rgb(55,199,32)),`
 Memberikan warna pada objek, misalnya untuk mewarnai bentuk bulat maka digunakan sintak ini.
 
-6. rect(0,0,900,400),
+6. `rect(0,0,900,400),`
 Untuk membuat kotak background yang akan di brush menjadi warna biru langit.
 
-7. ellipse(295,45,375,125),
+7. `ellipse(295,45,375,125),`
 Untuk membuat lingkaran pada matahari.
 
-8. line(428,245,323,350),
+8. `line(428,245,323,350),`
 Untuk membuat garis, sedangkan angka tersebut dapat diartikan x1,y1,x2,y2 dimana x1=428, y1=245, x2=323 dan y2=350.
 
-9. fill_polygon(505,350,505,500,508,500,705,450),
+9. `fill_polygon(505,350,505,500,508,500,705,450),`
 Untuk mewarnai tembok dan pintu, fill_polygon ini membutuhkan tiga titik, dimana ketiga titik tersebut kita gunakan untuk 
 mewarnai objek yang kita inginkan. Angka-angka yang diatas merupakan gabungan antara dua garis, ketika dijadikan satu dengan fill_polygon maka garis yang ketiga dengan sendirinya akan terbentuk. Misalnya kita ingin membuat segitiga, yang kita masukan kedalam fill_polygon adalah line untuk tinggi dan alas dari segitiga tersebut, maka dengan sendirinya garis miring pada segitiga akan terbentuk.
 
-10. %
+10. `%`
 Memberikan komentar pada program yang sedang dibuat untuk mempermudah mengingat program yang sedang dibuat.
 
 Sekian artikel tentang membuat rumah dengan strawberry prolog semoga bermanfaat :)
