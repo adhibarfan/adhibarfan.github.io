@@ -3,8 +3,8 @@ layout: post
 title: Membuat Rumah Dengan Strawberry Prolog
 modified:
 categories: 
-excerpt: Belajar membuat rumah dengan strawberry prolog
-tags: [Membuat, rumah, strawberry prolog, prolog, laporan akhir]
+excerpt: Belajar pen, brush, line, rect, ellipse, fill_polygon untuk membuat rumah dengan strawberry prolog
+tags: [Membuat, rumah, strawberry prolog, prolog, laporan akhir, fill_polygon]
 comments: true
 share: true
 image:
