@@ -3,8 +3,8 @@ layout: post
 title: Membuat Rumah Dengan Strawberry Prolog
 modified:
 categories: 
-excerpt: Belajar Strawberry Prolog dengan Membuat Rumah
-tags: [Membuat, rumah, strawberry prolog]
+excerpt: Belajar membuat rumah dengan strawberry prolog
+tags: [Membuat, rumah, strawberry prolog, prolog, laporan akhir]
 comments: true
 share: true
 image:
