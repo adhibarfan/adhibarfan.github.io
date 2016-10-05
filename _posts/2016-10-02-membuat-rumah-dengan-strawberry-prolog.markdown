@@ -38,7 +38,7 @@ rect(0,400,900,600),
 
 %backgroundLangit
 pen(5,rgb(0,133,237)),
-brush(5,rgb(0,133,237)),
+brush(rgb(0,133,237)),
 rect(0,0,900,400),
 
 %warnaRumah
