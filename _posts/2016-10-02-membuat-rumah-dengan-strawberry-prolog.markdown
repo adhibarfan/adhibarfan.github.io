@@ -142,4 +142,5 @@ mewarnai objek yang kita inginkan. Angka-angka yang diatas merupakan gabungan an
 10. `%`
 Memberikan komentar pada program yang sedang dibuat untuk mempermudah mengingat program yang sedang dibuat.
 
-Sekian artikel tentang membuat rumah dengan strawberry prolog semoga bermanfaat :)
+untuk link donwload program strawberry prolog versi 2.92 [disini](https://www.dropbox.com/s/jcaijcr5e4ba7tn/strawberry%20prolog%202.9.2.rar?dl=0)
+, Sekian artikel tentang membuat rumah dengan strawberry prolog semoga bermanfaat :)
