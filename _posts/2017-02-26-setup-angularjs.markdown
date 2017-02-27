@@ -26,7 +26,7 @@ Berikut ini adalah konfigurasi yang diperlukan dalam setup AngularJS
 ## Install gulp
 >> Gulp adalah sebuah build tool yang biasanya digunakan untuk automated task atau bisa dibilang sebagai automator
 
-selengkapnya tentang bisa berkunjunga di situs [ini](https://rizkimufrizal.github.io/berkenalan-dengan-gulp/), jalankan perintah `gulp serve` untuk menjalankan gulp sebagai server
+selengkapnya tentang bisa berkunjunga di situs [ini](https://rizkimufrizal.github.io/berkenalan-dengan-gulp/), jalankan perintah `gulp` untuk menjalankan gulp sebagai server
 
 
 
