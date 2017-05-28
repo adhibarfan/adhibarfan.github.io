@@ -36,9 +36,10 @@ jalankan cmd dengan Run as administrator, kemudian copy paste perintah
  `choco install libiconv -Source "https://www.nuget.org/api/v2/"`
 
 5. Update latest RubyGems
+ - Untuk menghindari error karena [SSL](http://guides.rubygems.org/ssl-certificate-update/#installing-using-update-packages), maka harus melakukan update RubyGems
  - Download lates `.gem` file [disini](https://rubygems.org/pages/download)
  - pada cmd jalankan perintah berikut `gem install --local C:\rubygems-update-2.6.12.gem` sesuaikan dengan direktori file `.gem` yang telah di download.
- - Kemudian jalankan perintah `update_rubygems` maka RubyGems akan melakukan update
+ - Kemudian jalankan perintah `update_rubygems` maka RubyGems akan melakukan update. 
 
  6. Install github-pages
  - Install [Bundler](http://bundler.io/), buka cmd Run as administrator kemudian jalankan perintah `gem install bundler`
