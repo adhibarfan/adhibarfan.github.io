@@ -44,13 +44,14 @@ jalankan cmd dengan Run as administrator, kemudian copy paste perintah
  6. Install github-pages
  - Install [Bundler](http://bundler.io/), buka cmd Run as administrator kemudian jalankan perintah `gem install bundler`
  - Membuat file dengan nama `Gemfile` tanpa extension pada root direktori blog
- - copy & paste 3 baris pada file `Gemfile`:
+ - copy & paste line berikut pada file `Gemfile`:
  `source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 gem 'octopress', '~> 3.0'`
-- Jalankan perintah 'bundle install' pada root direktori blog.
+- Jalankan perintah `bundle install` pada root direktori blog.
 
+After this process you should have github-pages installed on your system and you can host your blog again with `jekyll serve` 
 
-After this process you should have github-pages installed on your system and you can host your blog again with `jekyll serve`
+[Terimakasih](https://jekyllrb.com/docs/windows/). 
 
 
