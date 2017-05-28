@@ -127,7 +127,7 @@ GEM
       colorator
     octopress-escape-code (2.1.1)
       jekyll (~> 3.0)
-    octopress-hooks (2.6.1)
+    octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -136,7 +136,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.3.4)
+    redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
@@ -160,9 +160,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.2, >= 3.2.1)
-  jekyll-sitemap
   octopress (~> 3.0)
 
 BUNDLED WITH
-   1.12.5
+   1.15.0

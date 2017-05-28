@@ -16,7 +16,7 @@ highlighter: rouge
 rouge: pygments
 sass:
   sass_dir: _sass
-  style: compressed
+  swyle: compressed
 gems:
   - jekyll-sitemap
 
@@ -33,7 +33,7 @@ kramdown:
 owner:
   name: Adhib Arfan
   avatar: me.jpg
-  bio: "Mahasiswa Tingkat Akhir"
+  bio: "Keep learn for better future"
   email: adhib.arfan@gmail.com
   disqus-shortname: adhibarfan
   twitter: adhibarfan_
