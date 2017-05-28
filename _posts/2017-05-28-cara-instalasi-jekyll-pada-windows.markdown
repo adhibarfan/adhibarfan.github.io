@@ -50,8 +50,6 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'octopress', '~> 3.0'`
 - Jalankan perintah `bundle install` pada root direktori blog.
 
-After this process you should have github-pages installed on your system and you can host your blog again with `jekyll serve` 
-
-[Terimakasih](https://jekyllrb.com/docs/windows/). 
+After this process you should have github-pages installed on your system and you can host your blog again with `jekyll serve`, [Terimakasih](https://jekyllrb.com/docs/windows/). 
 
 
