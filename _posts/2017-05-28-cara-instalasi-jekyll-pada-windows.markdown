@@ -21,8 +21,8 @@ jalankan cmd dengan Run as administrator, kemudian copy paste perintah
 `@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 
 2. Install Ruby dan Ruby development kit
-`choco install ruby -version 2.2.4`
-`choco install ruby2.devkit`
+- Install Ruby `choco install ruby -version 2.2.4`
+- Install RubyDevkit `choco install ruby2.devkit`
 
 3. Configurasi Ruby development kit
  - Buka command prompt kemudian masuk ke direktori `C:\tools\DevKit2`
@@ -30,8 +30,7 @@ jalankan cmd dengan Run as administrator, kemudian copy paste perintah
  - Edit file `config.yml` pada direktori `C:\tools\DevKit2` dengan menambahkan path Ruby `- C:/tools/ruby22`
  - Jalankan command ini to set the path: `ruby dk.rb install`
 
-4. Nokogiri gem installation
- Gem ini dibutuhkan pada github-pages agar bisa berjalan pada Windows x64.
+4. Nokogiri gem installation, Gem ini dibutuhkan pada github-pages agar bisa berjalan pada Windows x64.
  `choco install libxml2 -Source "https://www.nuget.org/api/v2/"`
  `choco install libxslt -Source "https://www.nuget.org/api/v2/"`
  `choco install libiconv -Source "https://www.nuget.org/api/v2/"`
