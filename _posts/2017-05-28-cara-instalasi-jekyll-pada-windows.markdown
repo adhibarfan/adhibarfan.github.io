@@ -34,9 +34,15 @@ jalankan cmd dengan Run as administrator, kemudian copy paste perintah
 
 ### Nokogiri gem installation
 Gem ini dibutuhkan pada github-pages agar bisa berjalan pada Windows x64.
- `choco install libxml2 -Source "https://www.nuget.org/api/v2/"`
- `choco install libxslt -Source "https://www.nuget.org/api/v2/"`
- `choco install libiconv -Source "https://www.nuget.org/api/v2/"`
+{% highlight bash %}
+ choco install libxml2 -Source "https://www.nuget.org/api/v2/"
+ {% endhighlight %}
+ {% highlight bash %}
+ choco install libxslt -Source "https://www.nuget.org/api/v2/"
+ {% endhighlight %}
+ {% highlight bash %}
+ choco install libiconv -Source "https://www.nuget.org/api/v2/"
+ {% endhighlight %}
 
 ### Update latest RubyGems
  - Untuk menghindari error karena [SSL](http://guides.rubygems.org/ssl-certificate-update/#installing-using-update-packages), maka RubyGems harus di update.
