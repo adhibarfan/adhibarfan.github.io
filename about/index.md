@@ -6,7 +6,7 @@ modified:
 comments: true
 ---
 
-Nama saya Adhib Arfan dari Tegal Jawa Tengah.  salam kenal, semoga bisa menambah tali persaudaraan :) 
+Tugas kamu adalah menyelesaikan apa yang telah kamu pilih ! :) 
 
 ## Pendidikan :
 
