@@ -10,8 +10,6 @@ image:
 date: 2018-07-10T10:05:18+07:00
 ---
 
-# IBM MQ command-line
-
 ## Queue Manager
 ### create queue manager
 ```sh
