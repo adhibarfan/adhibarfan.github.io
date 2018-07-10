@@ -163,4 +163,4 @@ DEPENDENCIES
   octopress (~> 3.0)
 
 BUNDLED WITH
-   1.15.0
+   1.16.2
