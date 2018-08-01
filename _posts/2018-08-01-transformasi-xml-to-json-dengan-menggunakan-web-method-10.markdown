@@ -20,7 +20,24 @@ WSDL
 http://www.dneonline.com/calculator.asmx?WSDL 
 ```
 sample output soap  
-![soapRequest.png](../images/soapRequest.png)
+![soapRequest.png](../images/soapRequest.png)  
 Output dari transformasi XML to JSON  
-![restRequest.png](../images/restRequest.png)
+![restRequest.png](../images/restRequest.png)  
+
+#### 1. Create new package dengan nama Calculator  
+![packageCalculator.png](../images/packageCalculator.png)
+
+#### 2. Create folder sesuai dengan kebutuhan yang akan digunakan  
+![packageFolder.png](../images/packageFolder.png)  
+
+#### 3.	Create new Web Service Descriptor 
+web service descriptor ini digunakan untuk mendapatkan deskripsi dari webservice.  
+![webServiceDescriptor.png](../images/webServiceDescriptor.png)  
+
+Disini kita sebagai consumer  -> `next`
+![consumerWsdl.png](../images/consumerWsdl.png)  
+
+kemudian input link wsdl yang akan digunakan  -> `finish`
+![urlWdsl.png](../images/urlWdsl.png)  
+
 
