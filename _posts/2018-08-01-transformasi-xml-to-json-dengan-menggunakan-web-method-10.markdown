@@ -80,3 +80,44 @@ web service descriptor ini digunakan untuk mendapatkan deskripsi dari webservice
 ![outputAdd.png](../images/outputAdd.png) 
 
 
+#### 6. Membuat flow baru dengan nama fAdd, yaitu flow yang dilihat dari sisi frontend
+![fAdd.png](../images/fAdd.png) 
+
+* Flow pada service fAdd
+![flowServiceAdd.png](../images/flowServiceAdd.png) 
+
+```Suquence 1 exit on success```  
+```Sequence 2 exit on failure```  
+```Sequence 3 exit on done```  
+
+* 1*
+![fAdd1.png](../images/fAdd1.png) 
+
+* 2*
+![fAdd2.png](../images/fAdd2.png) 
+
+* 3*
+![fAdd3.png](../images/fAdd3.png) 
+
+* 4*
+![fAdd4.png](../images/fAdd4.png) 
+
+* Clear pipeline ini digunakan untuk menghapus semua output, jika ingin mengeluarkan output tertentu, tambahkan value dari preserve seperti gambar
+
+![clearPipeline.png](../images/clearPipeline.png)
+
+#### 7. Membuat rest client
+![restResource.png](../images/restResource.png)
+
+* REST V2 -> `Next`
+![restv2.png](../images/restv2.png)
+
+* penambahan method
+![methodAdd.png](../images/methodAdd.png)
+
+* done, silahkan invoke service tersebut sbb 
+
+{% highlight bash %}
+curl -X POST \   http://localhost:5555/restv2/calculator/add \   -H 'Content-Type: application/json' \   -d '{ 	"intA":"230", 	"intB":"3" }'
+{% endhighlight %}
+
