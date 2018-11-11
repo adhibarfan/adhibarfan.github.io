@@ -19,7 +19,7 @@ $ ./crtmqm --queue-manager-name--
 ### Start queue manager
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./strmqsc --queue-manager-name--
+$ ./strmqm --queue-manager-name--
 ```
 
 ### Run MQSC
