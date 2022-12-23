@@ -6,14 +6,11 @@ modified:
 comments: true
 ---
 
-Tugas kamu adalah menyelesaikan apa yang telah kamu pilih ! :) 
+Software development engineer, expertise in middleware platform for application programming interface (API) development systems.
 
 ## Pendidikan :
 
-* MI Islamiyah 02 Tuwel Bojong Tegal
-* MTs Darul Mujahadah Prupuk Margasari Tegal
-* SMAN 1 Mojo Kediri Jawa Timur
-* S1 Universitas Gunadarma Depok Jawa Barat
-* S2 Universitas Gunadarma - Present
+* Magister Management Information System - Gunadarma University (2019)
+* Bachelor of Informatics Engineering - Gunadarma University (2016)
 
 <a markdown="0" class="btn">Thanks</a>
