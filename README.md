@@ -1,6 +1,8 @@
-# Minimal Mistakes
+# Catatan Adhib Arfan
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.
+https://adhibarfan.github.io is using **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** theme
+
+Minimal Mistakes is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.
 
 **Jekyll 3 Update:** A version of Minimal Mistakes compatible with Jekyll 3 can be found in the [`jekyll3` branch](https://github.com/mmistakes/minimal-mistakes/tree/jekyll3). GitHub Pages is [locked at version 2.4](https://pages.github.com/versions/) so some keep that in mind if you're trying to use 3.0 features that aren't supported there yet.
 
@@ -13,8 +15,6 @@
 * Simple and clear permalink structure.
 * [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
 * Support for Disqus Comments
-
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
 
 See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
 

@@ -44,7 +44,7 @@ $ ./dltmqm --queue-manager-name--
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
 
 # Create local queue
 DEFINE QLOCAL ('--local-queue-name--')
@@ -67,7 +67,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create topic
 DEFINE TOPIC('--topic-name--') TOPICSTR('--topic-string--')
@@ -89,7 +89,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create queue alias
 DEFINE QALIAS('--queue-alias-name--') TARGET('--queue-or-topic-name--') TARGTYPE (--target-type--)
@@ -113,7 +113,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create transmission queue
 DEFINE QLOCAL('--transmission-queue-name--') USAGE (XMITQ)
@@ -135,7 +135,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create remote queue
 DEFINE QREMOTE('--queue-remote-name--') RQMNAME('--remote-queue-manager-name--') RNAME('--remote-name--') XMITQ('--transmission-queue-name--')
@@ -157,7 +157,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create channel server conn
 DEFINE CHANNEL('--channel-name--') CHLTYPE(--channel-type--) TRPTYPE(--trp-type--) HBINT(60)
@@ -188,7 +188,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Change service become part of MQ
 ALTER SERVICE('SYSTEM.AMQP.SERVICE') CONTROL(QMGR)
@@ -213,7 +213,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Create port TCP listener
 DEFINE LISTENER('--listener-name--') TRPTYPE(--type--) PORT(--port--)
@@ -239,7 +239,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Set auth user for queue manager
 SET AUTHREC PROFILE('QM_JENIUS_DEV') GROUP('--username--') OBJTYPE(QMGR) AUTHADD(ALL)
@@ -276,7 +276,7 @@ END
 ### Run MQSC
 ```sh
 $ cd /apps/ibm/mqm/900/bin/
-$ ./runmqsc QM_JENIUS_DEV
+$ ./runmqsc QM_NAME_DEV
  
 # Move to bin directory
 $ cd /apps/ibm/mqm/900/bin/
